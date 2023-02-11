@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--========== UNICONS ==========-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--========== BOXICONS ==========-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--========== SWIPER CSS ==========-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--========== MAIN CSS ==========-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.3/iconify-icon.min.js"></script>
+    <title>Prajwal Portfolio</title>
+</head>
+
+<body>
+    <!--========== SIDEBAR ==========-->
+    <div class="nav__toggle" id="nav-toggle">
+        <i class="uil uil-bars"></i>
+    </div>
+    <aside class="sidebar" id="sidebar">
+        <nav class="nav">
+            <div class="nav__logo">
+                <a href="index.html" class="nav__logo-text">PA</a>
+            </div>
+            <div class="nav__menu">
+                <div class="menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">Skills</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#Work" class="nav__link">Work</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#achievements" class="nav__link">Achievements</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="btn__share">
+                <a href="https://prajwalprogrammer.github.io/portfolio/">
+                    <i class="uil uil-share-alt social__share" style="color: hsl(342, 92%, 46%);"></i>
+                </a>
+            </div>
+            <div class="nav__close" id="nav-close">
+                <i class="uil uil-times"></i>
+            </div>
+        </nav>
+    </aside>
+    <!--========== MAIN ==========-->
+    <main class="main">
+        <!--===== Home =====-->
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <div class="home__social">
+                    <span class="home__social-follow">Follow Me</span>
+                    <div class="home__social-links">
+                        <a href="https://www.instagram.com/prajwal._here/" target="_blank" class="home__social-link">
+                            <iconify-icon icon="cib:leetcode"  width="30" height="30"></iconify-icon>
+                        </a>
+                        <a href="https://www.instagram.com/prajwal._here/" target="_blank" class="home__social-link">
+                            <iconify-icon icon="simple-icons:geeksforgeeks"  width="30" height="30"></iconify-icon>
+                        </a>
+                        <a href="https://www.github.com/prajwalprogrammer" target="_blank" class="home__social-link">
+                            <iconify-icon icon="mingcute:github-fill" width="30" height="30"></iconify-icon>
+                        </a>
+                        <a href="https://www.linkedin.com/in/prajwalachwale/" target="_blank" class="home__social-link">
+                            <iconify-icon icon="carbon:logo-linkedin" width="30" height="30"></iconify-icon>
+                        </a>
+                        <a href="https://twitter.com/prajwal_here" target="_blank" class="home__social-link">
+                            <iconify-icon icon="mdi:twitter" width="30" height="30"></iconify-icon>
+                        </a>
+                        <a href="https://www.instagram.com/prajwal._here/" target="_blank" class="home__social-link">
+                            <iconify-icon icon="lucide:instagram" width="30" height="30"></iconify-icon>
+                        </a>
+                    </div>
+                </div>
+
+                <img src="assets/img/home-page.png" alt="" class="home__img">
+                <div class="home__data">
+                    <h1 class="home__title">Hi, I'm Prajwal Achwale</h1>
+                    <h3 class="home__subtitle">App Developer in React-Native and Blockchain Enthusiast</h3>
+                    <p class="home__description">I'm a B.Tech 3rd year Computer Engineering Student of Vishwakarma Institute of Technology, Pune with the knowledge of DSA & Development in React, React-Native, Node.js, Github, MongoDB, MySQL & much more...</p>
+                    <a href="#about" class="button"><i class="uil uil-user button__icon"></i>More about me</a>
+                </div>
+                <div class="my__info">
+                    <i class="uil uil-instagram  info__icon"></i>
+                    <div class="info__item">
+                        <div>
+                            <h3 class="info__title">Instagram</h3>
+                            <span class="info__subtitle">prajwal._here</span>
+                        </div>
+                    </div>
+                    <i class="uil uil-github info__icon"></i>
+                    <div class="info__item">
+                        <div>
+                            <h3 class="info__title">Github</h3>
+                            <span class="info__subtitle">prajwalprogrammer</span>
+                        </div>
+                    </div>
+                    <i class="uil uil-envelope-edit info__icon"></i>
+                    <div class="info__item">
+                        <div>
+                            <h3 class="info__title">Email</h3>
+                            <span class="info__subtitle">prajwalachwale29@gmail.com</span> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="assets/img/home-img.png" alt="" class="home__img">
+            </div>
+        </section>
+        <!--===== About =====-->
+        <section class="about section" id="about">
+            <h2 data-heading="My Intro" class="section__title">About Me</h2>
+
+            <div class="about__container container grid">
+                <img src="assets/img/my_image1.png" alt="" class="about__img">
+                <div class="about__data">
+                    <h3 class="about__heading">Hi, I'm Achwale Prajwal, Based in India</h3>
+                    <p class="about__description">I'm a Computer Engineering student at Vishwakarma Institute of Technology, Pune. Self-motivated learner always looking to enhance my skills. To get an opportunity in coding and development knowledge, producing quality work that will allow me to showcase my skills and contribute to the company's growth .
+
+                </p>
+                    <p class="about__description">I've worked for many projects for my clients as well as my personal projects. I also contributed for the Open Source projects and participated in many Hackathons.I have learning attitude and growth mindset which helps me to collaborate with people and work for the society.
+                </p>
+
+                    <div class="about__info">
+                        <div class="about__box">
+                            <i class="uil uil-award about__icon"></i>
+                            <h3 class="about__title">Achievements</h3>
+                            <span class="about__subtitle">9+ Awards & Certificates</span>
+                        </div>
+                    
+                        <div class="about__box">
+                                <i class="uil uil-suitcase-alt about__icon"></i>
+                                <h3 class="about__title">Completed</h3>
+                                <span class="about__subtitle">10+ projects</span>
+                        </div>                    
+                    
+                        <div class="about__box">
+                            <i class="uil uil-headphones-alt about__icon"></i>
+                            <h3 class="about__title">Support</h3>
+                            <span class="about__subtitle">Online 24/7</span>
+                        </div>
+                    </div>
+                    <a href="./PRAJWAL_RESUME.pdf" class="button" download><i class="uil uil-download-alt button__icon"></i> Download CV
+                    </a>
+                </div>
+            </div>            
+        </section>
+
+        <!--===== Qualification =====-->
+        
+        <section class="qualification section">
+            <h2 data-heading="My Journey" class="section__title">Qualification</h2>
+            <div class="qualification__container container grid">
+                
+                <div class="education">
+                    <h3 class="qualification__title">
+                        <i class="uil uil-graduation-cap"></i> Education
+                    </h3>
+        
+                    <div class="timeline">
+                        <div class="timeline__item">
+                            <div class="circle__dot"></div>
+                            <h3 class="timeline__title">Vishwakarma Institute of Technology, Pune - 411037</h3>
+                            <p class="timepline__text">B.Tech (Computer Engineering)</p>
+                            <span class="timeline__date"><i class="uil uil-calender-alt"></i>
+                                2020-2024<br />8.64 CGPA
+                            </span>
+                        </div>
+                        <div class="timeline__item">
+                            <div class="circle__dot"></div>
+                            <h3 class="timeline__title">Puranmal Lahoti Govt Polytechnic, Latur - 413512</h3>
+                            <p class="timepline__text">Diploma</p>
+                            <span class="timeline__date"><i class="uil uil-calender-alt"></i>
+                            2018-2021<br />97.14%
+                            </span>
+                        </div>
+                        <div class="timeline__item">
+                            <div class="circle__dot"></div>
+                            <h3 class="timeline__title">Saraswati Vidhyalaya, Latur - 413512</h3>
+                            <p class="timepline__text">SSC</p>
+                            <span class="timeline__date"><i class="uil uil-calender-alt"></i>
+                            2013-2018<br />95.20%
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="experience">
+                        <h3 class="qualification__title">
+                            <i class="uil uil-suitcase"></i> Experience
+                        </h3>
+            
+                        <div class="timeline">
+                            <div class="timeline__item">
+                                <div class="circle__dot"></div>
+                                <h3 class="timeline__title">Intern -Batbird Inc (Nagpur - India)</h3>
+                                <p class="timepline__text">React-Native Developer</p>
+                                <span class="timeline__date"><i class="uil uil-calender-alt"></i>
+                                    Aug-2021 - Oct-2021
+                                </span>
+                            </div>
+                            <!-- <div class="timeline__item">
+                                <div class="circle__dot"></div>
+                                <h3 class="timeline__title"> (Sometown - NJ)</h3>
+                                <p class="timepline__text">Data Analyst</p>
+                                <span class="timeline__date"><i class="uil uil-calender-alt"></i>
+                                    2017-2019
+                                </span>
+                            </div>
+                            <div class="timeline__item">
+                                <div class="circle__dot"></div>
+                                <h3 class="timeline__title">JP Morgan (Sometown - NJ)</h3>
+                                <p class="timepline__text">Database Engineer</p>
+                                <span class="timeline__date"><i class="uil uil-calender-alt"></i>
+                                    2013-2015
+                                </span>
+                            </div> -->
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <!--===== Skills =====-->
+        <section class="skills section" id="skills">
+            <h2 data-heading="My Abilities" class="section__title">My Experience</h2>
+            <div class="skills__container container grid">
+                <div class="skills__tabs">
+                    <div class="skills__header skills__active" data-target="#frontend">
+                        <i class="uil uil-brackets-curly skills__icon"></i>
+                        <div>
+                            <h1 class="skills__title">Frontend Developer</h1>
+                                <span class="skills__subtitle">8+ Projects</span>
+                            </div>
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+
+                    <div class="skills__header" data-target="#backend">
+                        <i class="uil uil-server-network skills__icon"></i>
+                        <div>
+                            <h1 class="skills__title">Backend Developer</h1>
+                            <span class="skills__subtitle"> 7+ Projects</span>
+                        </div>
+                        <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+                    
+                    <div class="skills__header" data-target="#design">
+                        <i class="uil uil-swatchbook skills__icon"></i> 
+                        <div>
+                            <h1 class="skills__title">App Developement</h1>
+                                <span class="skills__subtitle">More than 2 years</span><br>
+                                <span class="skills__subtitle">10+ Projects</span>
+                            </div>
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+                </div>
+
+                <div class="skills__content">
+                    <div class="skills__group skills__active" data-content id="frontend">
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__number">80%</span>
+                                </div>
+
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width:76%;  "></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">JavaScript</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width:68%;  "></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">React</h3> 
+                                    <span class="skills__number">95%</span>
+                                </div>
+
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width:75%;  "></span>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">CSS</h3> 
+                                    <span class="skills__number">80%</span>
+                                </div>
+
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width:70%;  "></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills__group" data-content id="design">
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">React-Native</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width:90%;  "></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">React-Redux</h3>
+                                    <span class="skills__number">85%</span>
+                                </div>
+
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width:85%;  "></span>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Figma</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width:70%;  "></span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="skills__group" data-content id="backend">
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Node Js</h3>
+                                    <span class="skills__number">75%</span>
+                                </div>
+
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width:70%;  "></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Python</h3>
+                                    <span class="skills__number">80%</span>
+                                </div>
+
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width:80%;  "></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">MySQL</h3> 
+                                    <span class="skills__number">85%</span>
+                                </div>
+
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width:85%;  "></span>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">MongoDB</h3> 
+                                    <span class="skills__number">70%</span>
+                                </div>
+
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width:70%;  "></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>    
+        </section>
+        <!--===== Work =====-->
+        <section class="work section" id="Work">
+            <h2 data-heading="My Portfolio" class="section__title"> Recent Works</h2>
+            <div class="work__filters">
+                <span class="work__item active-work" data-filter="all">All</span>
+                <span class="work__item" data-filter=".web">Web</span>
+                <span class="work__item" data-filter=".App">App</span>
+                <span class="work__item" data-filter=".blockchain">Blockchain</span>
+                <span class="work__item" data-filter=".python">Django</span>
+                <span class="work__item" data-filter=".java">Java</span>
+            </div>
+
+            <div class="work__container container grid">
+                <div class="work__card mix blockchain">
+                    <img src="assets/img/blockchain-1.png" alt="">
+                    <h3 class="work__title">A Blockchain-based E-Commerce Warranty System using NFTS</h3>
+                    <a href="https://github.com/RahulPonnuru/Flipkart-Grid" target="_blank">
+                    <span class="work__button">
+                        <i class="uil uil-github"></i>
+                            Github
+                        <i class="uil uil-arrow-right work__button-icon"></i>
+                    </span>
+                    </a>
+                </div>
+                <div class="work__card mix web">
+                    <img src="assets/img/web-1.png" alt="">
+                    <h3 class="work__title">Transliteration Project</h3>
+                    <a href="https://github.com/RahulPonnuru/TransliterationProject" target="_blank">
+                        <span class="work__button"><i class="uil uil-github"></i>
+                                Github
+                            <i class="uil uil-arrow-right work__button-icon"></i>
+                        </span>
+                    </a>
+                </div>
+                <!-- <div class="work__card mix design web">
+                    <img src="assets/img/design.png" alt="">
+                    <h3 class="work__title">College Website Design</h3>
+                    <a href="https://github.com/ayushdpatni/college-website-design" target="_blank">
+                        <span class="work__button">
+                            <i class="uil uil-github"></i>
+                                Github
+                            <i class="uil uil-arrow-right work__button-icon"></i>
+                        </span>
+                    </a>
+                </div> -->
+                <div class="work__card mix web design">
+                    <img src="assets/img/port2.jpg" alt="">
+                    <h3 class="work__title">Portfolio Website</h3>
+                    <a href="https://github.com/prajwalprogrammer/portfolio" target="_blank">
+                        <span class="work__button">
+                            <i class="uil uil-github"></i>
+                                Github
+                            <i class="uil uil-arrow-right work__button-icon"></i>
+                        </span>
+                    </a>
+                </div>
+                <div class="work__card mix blockchain">
+                    <img src="assets/img/land.jpg" alt="">
+                    <h3 class="work__title">Blockchain-Based Land Registation System</h3>
+                    <a href="https://github.com/prajwalprogrammer/BlockChain-Based-Land-Registry" target="_blank">                        
+                        <span class="work__button">
+                            <i class="uil uil-github"></i>
+                                Github
+                            <i class="uil uil-arrow-right work__button-icon"></i>
+                        </span>
+                    </a>
+                </div>
+                <div class="work__card mix App">
+                    <img src="assets/img/admis.jpg" alt="">
+                    <h3 class="work__title">Engineering Admissions</h3>
+                    <a href="https://github.com/prajwalprogrammer/AdmissionMadeEasy" target="_blank">                        
+                        <span class="work__button">
+                            <i class="uil uil-github"></i>
+                                Github  
+                            <i class="uil uil-arrow-right work__button-icon"></i>
+                        </span>
+                    </a>
+                    <a href="https://drive.google.com/file/d/1OQbd2IY86FNZrofqiuPx6hZtIQi0xDQb/view?usp=share_link" target="_blank">                        
+                        <span class="work__button">
+                            <i class="uil uil-link"></i>
+                                APK file
+                            <i class="uil uil-arrow-right work__button-icon"></i>
+                        </span>
+                    </a>
+                </div>
+                <div class="work__card mix App">
+                    <img src="assets/img/admi.jpg" alt="">
+                    <h3 class="work__title">Covid-19 Applcation</h3>
+                    <a href="https://github.com/prajwalprogrammer/corona-app" target="_blank">                        
+                        <span class="work__button">
+                            <i class="uil uil-github"></i>
+                                Github
+                            <i class="uil uil-arrow-right work__button-icon"></i>
+                        </span>
+                    </a>
+                    <a href="https://drive.google.com/file/d/1ibhwWT1-80HoDebjn2rwetcDfY9CePCo/view?usp=share_link" target="_blank">                        
+                        <span class="work__button">
+                            <i class="uil uil-video"></i>
+                                Video Link
+                            <i class="uil uil-arrow-right work__button-icon"></i>
+                        </span>
+                    </a>
+                </div>
+                <div class="work__card mix web python">
+                    <img src="assets/img/face.jpg" alt="">
+                    <h3 class="work__title">Attendance Management System using Face-Recognition</h3>
+                    <a href="https://github.com/prajwalprogrammer/Attendance-Management-System-Using-Face-Recognation" target="_blank">
+                        <span class="work__button">
+                            <i class="uil uil-navigator"></i>
+                                Github Link
+                            <i class="uil uil-arrow-right work__button-icon"></i>
+                        </span>
+                    </a>
+                </div>
+                <div class="work__card mix java">
+                    <img src="assets/img/dino1.jpg" alt="">
+                    <h3 class="work__title">Google Dino Game</h3>
+                    <a href="https://github.com/prajwalprogrammer/Dino-Game-using-Java" target="_blank">
+                        <span class="work__button">
+                            <i class="uil uil-github"></i>
+                                Github Link
+                            <i class="uil uil-arrow-right work__button-icon"></i>
+                        </span>
+                    </a>
+                    <a href="https://drive.google.com/file/d/1iVhFyB4TQvSQIQsS--CLgsNCJWYDQVA6/view?usp=share_link" target="_blank">
+                        <span class="work__button">
+                            <i class="uil uil-video"></i>
+                                Video Link
+                            <i class="uil uil-arrow-right work__button-icon"></i>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio Popup -->
+        <!-- <div class="portfolio__popup">
+            <div class="portfolio__popup-inner">
+                <div class="portfolio__popup-content grid">
+                    <span class="portfolio__popup-close"><i class="uil uil-times"></i></span>
+                    <div class="pp__thumbnail">
+                        <img src="assets/img/work-2.webp" alt="" class="portfolio__popup-img">
+                    </div>
+                    <div class="portfolio__popup-info">
+                        <div class="portfolio__popup-subtitle">Featured - <span>Design</span></div>
+                        <div class="portfolio__popup-body">
+                            <h3 class="details__title">Created multiple web designs</h3>
+                            <p class="details__description">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum quaerat, minus repellendus totam consequuntur officiis.
+                            </p>
+                            <ul class="details__info">
+                                <li>Created - <span>4 Dec 2020</span></li>
+                                <li>Technologies - <span>HTML CSS</span></li>
+                                <li>Role - <span>Frontend</span></li>
+                                <li>View - <span><a href="#">www.domain.com</a></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <!--===== Services =====-->
+        <section class="achievements section" id="achievements">
+            <h2 class="section__title" data-heading="My Recognitions">
+                Achievements
+            </h2>
+            <div class="achievements__container container grid">
+                <div class="achievements__content">
+                    <div>
+                        <i class="uil uil-web-grid achievements__icon"></i>
+                        <h3 class="achievements__title">
+                            International <br/> and National Conferences
+                        </h3>
+                    </div>
+
+                    <span class="achievements__button">
+                        View More <i class="uil uil-arrow-right achievements__button-icon"></i>
+                    </span>
+                    <div class="achievements__model">
+                        <div class="achievements__model-content">
+                            <i class="uil uil-times achievements__model-close"></i>
+                            <h3 class="achievements__model-title">Paper Publications</h3>
+                            <p class="achievements__model-description">
+                                These are some of the conferences where i presented my paper and got them published successfully!
+                            </p>
+                            <ul class="achievements__model-achievements grid">
+                                <li class="achievements__model-service">
+                                    <i class="uil uil-check-circle achievements__model-icon"></i>
+                                    <a href="https://drive.google.com/file/d/1OxaLYqtLspCUVb5gyljqU3GhrjAVmc4N/view?usp=sharing" target="_blank">
+                                        <p class="achievements__model-info"> INCOFT-2022
+                                        </p>
+                                    </a>
+                                </li>
+                                
+                                <li class="achievements__model-service">
+                                    <i class="uil uil-check-circle achievements__model-icon"></i>
+                                    <a href="https://drive.google.com/file/d/1i_K1p_quJleXgdcaagZi5eEvgkDjF267/view?usp=sharing" target="_blank">
+                                        <p class="achievements__model-info"> ICCCE-2023
+                                        </p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="achievements__content">
+                    <div>
+                        <i class="uil uil-arrow achievements__icon"></i>
+                        <h3 class="achievements__title">
+                            Hackathons <br/> and <br/>
+                            Competitions
+                        </h3>
+                    </div>
+
+                    <span class="achievements__button">
+                        View More <i class="uil uil-arrow-right achievements__button-icon"></i>
+                    </span>
+                    <div class="achievements__model">
+                        <div class="achievements__model-content">
+                            <i class="uil uil-times achievements__model-close"></i>
+                            <h3 class="achievements__model-title">Hackathons <br/> & 
+                                Competitions</h3>
+                            <p class="achievements__model-description">
+                                These are the various Hackathons and Competitions in which i participated and brought the best out of me!
+                            </p>
+                            <ul class="achievements__model-achievements grid">
+                                <li class="achievements__model-service">
+                                    <i class="uil uil-check-circle achievements__model-icon"></i>
+                                    <a href="https://drive.google.com/file/d/1KlEWBF7JeGkMMAPh65K1CyjHtvegf6a6/view?usp=sharing" target="_blank">
+
+
+                                        <p class="achievements__model-info">
+                                            Flipkart Grid 4.0 (Level 2)
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="achievements__model-service">
+                                    <i class="uil uil-check-circle achievements__model-icon"></i>
+                                    <a href="https://drive.google.com/file/d/11Ugbm5kXT2jvp7j_2e4NVna7MtUjzb2b/view?usp=sharing" target="_blank">
+
+                                        <p class="achievements__model-info">
+                                            Codefiesta SM-VIT, Bengaluru (Top 3)
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="achievements__model-service">
+                                    <i class="uil uil-check-circle achievements__model-icon"></i>
+                                    <a href="https://drive.google.com/file/d/1s-vWawlwRol-nuT6bvra5r8kOA6uN8bH/view?usp=sharing">
+                                        <p class="achievements__model-info">
+                                            TVS Credit (Level 2)
+                                        </p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="achievements__content">
+                    <div>
+                        <i class="uil uil-edit achievements__icon"></i>
+                        <h3 class="achievements__title">
+                            Awards <br> and <br/> Certificates
+                        </h3>
+                    </div>
+
+                    <span class="achievements__button">
+                        View More <i class="uil uil-arrow-right achievements__button-icon"></i>
+                    </span>
+                    <div class="achievements__model">
+                        <div class="achievements__model-content">
+                            <i class="uil uil-times achievements__model-close"></i>
+                            <h3 class="achievements__model-title">Awards and Certificates</h3>
+                            <p class="achievements__model-description">
+                                These are my awards and course certifications over Coursera, Google, NPTEL, and other sites.
+                            </p>
+                            <ul class="achievements__model-achievements grid">
+                                <li class="achievements__model-service">
+                                    <i class="uil uil-check-circle achievements__model-icon"></i>
+                                    <a href="https://drive.google.com/file/d/1xMtTrjKy1T6r8gnIlHCLL2-70dqvjlvu/view?usp=sharing" target="_blank">
+                                        <p class="achievements__model-info"> Python Programming Language
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="achievements__model-service">
+                                    <i class="uil uil-check-circle achievements__model-icon"></i>
+                                    <a href="https://drive.google.com/file/d/1AXM5-zBsOT-GhPPBf06quXYJawmx6YzO/view?usp=sharing" target="_blank">
+                                        <p class="achievements__model-info"> Python For Data Science
+                                        </p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--===== Testimonials =====-->
+        
+        <!-- <section class="testimonials section">
+            <h2 data-heading="My teammates say" class="section__title">Testimonials</h2>
+            <div class="testimonials__container container swiper">
+                <div class="swiper-wrapper">
+                    <div class="testimonial__card swiper-slide">
+                         <div class="testimonial__card">
+                            <div class="testimonial__quote">
+                                <i class='bx bxs-quote-alt-left'></i>
+                            </div>
+                            <p class="testimonial__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero sunt ipsam magnam voluptate iusto facere ad fugiat iure, repudiandae recusan
+                            </p>
+                            <h3 class="testimonial__date">March 27, 2022</h3>
+                            <div class="testimonial__profile">
+                                <img src="assets/img/client1.jpg" alt="" class="testimonial__profile-img">
+                                <div class="testimonial__profile-data">
+                                    <span class="testimonial__profile-name">Loe Doe</span><br>
+                                    <span class="testimonial__profile-detail">Flipcart Grid 4.0</span>
+                                </div>
+                            </div>
+                         </div>
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+                        <div class="testimonial__card">
+                           <div class="testimonial__quote">
+                               <i class='bx bxs-quote-alt-left'></i>
+                           </div>
+                           <p class="testimonial__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero sunt ipsam magnam voluptate iusto facere ad fugiat iure, repudiandae recusan
+                           </p>
+                           <h3 class="testimonial__date">March 27, 2022</h3>
+                           <div class="testimonial__profile">
+                               <img src="assets/img/client3.jpg" alt="" class="testimonial__profile-img">
+                               <div class="testimonial__profile-data">
+                                   <span class="testimonial__profile-name">Loe Doe</span><br>
+                                   <span class="testimonial__profile-detail">Flipcart Grid 4.0</span>
+                               </div>
+                           </div>
+                        </div>
+                   </div>
+
+                   <div class="testimonial__card swiper-slide">
+                    <div class="testimonial__card">
+                       <div class="testimonial__quote">
+                           <i class='bx bxs-quote-alt-left'></i>
+                       </div>
+                       <p class="testimonial__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero sunt ipsam magnam voluptate iusto facere ad fugiat iure, repudiandae recusan
+                       </p>
+                       <h3 class="testimonial__date">March 27, 2022</h3>
+                       <div class="testimonial__profile">
+                           <img src="assets/img/client2.jpg" alt="" class="testimonial__profile-img">
+                           <div class="testimonial__profile-data">
+                               <span class="testimonial__profile-name">Loe Doe</span><br>
+                               <span class="testimonial__profile-detail">Flipcart Grid 4.0</span>
+                           </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            </div>
+        </section> -->
+
+        <!--===== Contact =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title" data-heading="Get in touch">Contact Me</h2>
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class="uil uil-envelope-edit contact__icon"></i>
+                            <h3 class="contact__card-title">Email</h3>
+                            <span class="contact__card-data">prajwalachwale29@gmail.com</span>
+                            <a href="mailto:prajwalachwale29@gmail.com" target="_blank" class="footer__social">
+                                <span class="contact__button">
+                                    Write me <i class="uil uil-arrow-right contact__button-icon"></i>
+                                </span>
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class="uil uil-whatsapp contact__icon"></i>
+                            <h3 class="contact__card-title">WhatsApp</h3>
+                            <span class="contact__card-data">+91 94X-XXXX-X52</span>
+                            <a href="https://wa.me/+919420257352" target="_blank" class="footer__social">
+                                <span class="contact__button">
+                                    Write me <i class="uil uil-arrow-right contact__button-icon"></i>
+                                </span>
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class="uil uil-twitter contact__icon"></i>
+                            <h3 class="contact__card-title">Twitter</h3>
+                            <span class="contact__card-data">@prajwal_here</span>
+                            <a href="https://twitter.com/prajwal_here" target="_blank" class="contact__button-icon">
+                                    <span class="contact__button">
+                                    Write me <i class="uil uil-arrow-right contact__button-icon"></i>
+                                </span>
+                                </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact__content">
+                    <form action="https://getform.io/f/8202a9ba-330e-4498-871e-aa4aff2d68b0" class="contact__form" method="post">
+
+                        <div class="input__container">
+                            <input type="text" name="name" class="input">
+                        <label for="">Name</label>
+                        <span>Name</span>
+                    </div>
+                    <div class="input__container">
+                        <input type="email" name="email" class="input">
+                        <label for="">Email</label>
+                        <span>Email</span>
+                    </div>
+                    <div class="input__container">
+                        <input type="tel" name="mobile" class="input">
+                        <label for="Mobile">Mobile Number</label>
+                        <span>Mobile Number</span>
+                    </div>
+                    <div class="input__container textarea">
+                        <textarea name="message" id="" class="input"></textarea>
+                        <label for="">Message</label>
+                        <span>Message</span>
+                    </div>
+                    <button type="submit" class="button"><i class="uil uil-navigator button__icon"></i>
+                        Send Message
+                    </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!--===== FOOTER =====-->
+        
+        <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">Prajwal Achwale</h1>
+                        <span class="footer__subtitle">
+                            App Developer in React-Native and Blockchain Enthusiast
+                        </span>
+                    </div>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#achievements" class="footer__link">Achievements</a>
+                        </li>
+                        <li>
+                            <a href="#Work" class="footer__link">Work</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="footer__link">Contact</a>
+                        </li>
+                    </ul>
+
+                    <!-- <div class="footer__socials"> -->
+
+                        <div class="footer__socials">
+                            <a href="https://leetcode.com/prajwal_29/" target="_blank" class="footer__social">
+                                <iconify-icon icon="cib:leetcode"  width="20" height="20"></iconify-icon>
+                            </a>
+                            <a href="https://auth.geeksforgeeks.org/user/prajwal_29/" target="_blank" class="footer__social">
+                                <iconify-icon icon="simple-icons:geeksforgeeks"  width="20" height="20"></iconify-icon>
+                            </a>
+                            <a href="https://www.github.com/prajwalprogrammer" target="_blank" class="footer__social">
+                                <iconify-icon icon="mingcute:github-fill" width="20" height="20"></iconify-icon>
+                            </a>
+                            <a href="https://www.linkedin.com/in/prajwalachwale/" target="_blank" class="footer__social">
+                                <iconify-icon icon="carbon:logo-linkedin" width="20" height="20"></iconify-icon>
+                            </a>
+                            <a href="https://twitter.com/prajwal_here" target="_blank" class="footer__social">
+                                <iconify-icon icon="mdi:twitter" width="20" height="20"></iconify-icon>
+                            </a>
+                            <a href="mailto:prajwalachwale29@gmail.com" target="_blank" class="footer__social">
+                                <iconify-icon icon="mdi:gmail" width="20" height="20"></iconify-icon>
+                            </a>
+                            <a href="https://www.instagram.com/prajwal._here/" target="_blank" class="footer__social">
+                                <iconify-icon icon="lucide:instagram" width="20" height="20"></iconify-icon>
+                            </a>
+                        </div>
+
+
+                            <!-- <a href="https://www.instagram.com/prajwal._here/" target="_blank" class="footer__social">
+                                    <i class="uil uil-instagram"></i>
+                            </a>
+                            <a href="https://www.twitter.com/prajwal_here" target="_blank" class="footer__social">
+                                    <i class="uil uil-twitter"></i>
+                            </a>
+                            <a href="https://www.github.com/prajwalprogrammer" target="_blank" class="footer__social">
+                                    <i class="uil uil-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/prajwalachwale/" target="_blank" class="footer__social">
+                                    <i class="uil uil-linkedin"></i>
+                            </a>
+                    </div> -->
+                </div>
+                <p class="footer__copy">&#169; Prajwal Achwale. All right reserved.</p>
+            </div>
+        </footer>
+    </main>
+
+    <!--========== SCROLL UP ==========-->
+    
+
+    <!--========== MIXITUP FILTER ==========-->
+    <script src="assets/js/mixitup.min.js"></script>
+
+    <!--========== SWIPER JS ==========-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
